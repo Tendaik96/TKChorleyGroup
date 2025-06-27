@@ -19,8 +19,7 @@ export default function Home() {
           <p>
             This dataset contains 25 structured report entries from a fictional
             beauty company's BI system.
-          </p>
-          <p>
+          
             Each report offers a snapshot of internal business operations,
             covering five essential areas:
           </p>
