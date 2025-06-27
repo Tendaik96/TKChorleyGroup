@@ -1,0 +1,35 @@
+.header{
+display: flex;
+flex-direction: row;
+background-color: #333333;
+height: auto;
+align-items: center;
+justify-content: space-between;
+padding: 0 30px;
+position: fixed;
+width: 100%;
+height: 50px;
+}
+
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.hamburger:hover{
+    cursor: pointer;
+}
+
+.hamburger div{
+    background-color: #E91E63;
+    height: 5px;
+    width: 40px;
+}
+
+.title{
+    color: #FFF;
+    
+    font-size: 1.6em;
+}

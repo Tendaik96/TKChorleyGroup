@@ -1,0 +1,16 @@
+.homeBody{
+    background-color: #F3F0F7;
+    min-height: 100vh;
+    padding-top: 50px;
+    
+}
+
+.homeBody div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+margin: 15vh auto;
+padding-bottom: 15vh;
+}
