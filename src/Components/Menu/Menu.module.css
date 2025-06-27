@@ -1,0 +1,53 @@
+.menuOpen, .menuClosed{
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    width: 250px;
+    background-color: #333333;
+    position: absolute;
+    top: 0;
+    
+}
+
+.menuOpen{
+   transition: left 2s ease;
+   left: 0px;
+}
+
+.menuClosed{
+    transition: left 1s ease;
+    left: -250px;
+ }
+
+.menuOpen ul,  .menuClosed ul{
+    color: #fff;
+    list-style: none;
+    margin: 0 auto;
+    padding-top: 40px; 
+    width: max-content;
+}
+
+.menuOpen ul li, .menuClosed ul li{
+    margin: 5vh 0;
+    cursor: pointer;
+}
+
+.arrows{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 8vh 2vw 0 0;
+    cursor: pointer;
+}
+
+.head{
+    transform: rotate(90deg);
+    font-size: 2em;
+    color: #E91E63;
+    margin: 0 -8px;
+   
+}
+
+.menuList li{
+font-size: 0.8em;
+}

@@ -7,3 +7,5 @@ got error when trying to run, i entered:
 
  create header
  i was having issue with importing module.css. i creadted declartion file: https://stackoverflow.com/questions/40382842/cant-import-css-scss-modules-typescript-says-cannot-find-module
+
+ installing font awesome: https://docs.fontawesome.com/web/use-with/react
