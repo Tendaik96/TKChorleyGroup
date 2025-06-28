@@ -1,0 +1,46 @@
+.dashboardFilter{
+    width: 300px;
+    height: 100vh;
+    padding-top: 10vh;
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff; 
+}
+
+ .dashboardContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    margin: 0 auto;
+} 
+
+.dashboardTitle{
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.filter{
+    background-color: #333;
+   
+}
+
+.default{
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.filterOptions div, .default{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 45px;
+    border: 1px #595757 solid;
+}
+
+input[type="checkbox"] {
+    accent-color: #E91E63; /* black checkbox */
+    background-color: #fff; /* white background */
+    cursor: pointer;
+}
