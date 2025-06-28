@@ -12,12 +12,14 @@ export default function Header() {
 
   return (
     <>
-      <div className={styles.header}>
-        <div className={styles.hamburger} onClick={handleMenuOpen}>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
+      <div className={menuOpen ? styles.oneItem : styles.header}>
+        {!menuOpen && (
+          <div className={styles.hamburger} onClick={handleMenuOpen}>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        )}
         <h1 className={styles.title}>BI SYSTEM PROJECT</h1>
       </div>
 

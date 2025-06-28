@@ -11,7 +11,7 @@ interface MenuProps {
 export default function Menu({ menuOpen, handleMenuOpen }: MenuProps) {
   return (
     <div className={menuOpen ? styles.menuOpen : styles.menuClosed}>
-      <div className={styles.arrows} onClick={handleMenuOpen}>
+      <div className={ styles.arrows} onClick={handleMenuOpen}>
         <FontAwesomeIcon icon={faAngleDown} className={styles.head} />
         <FontAwesomeIcon icon={faAngleDown} className={styles.head} />
         <FontAwesomeIcon icon={faAngleDown} className={styles.head} />
