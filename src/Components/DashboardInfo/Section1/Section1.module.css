@@ -1,0 +1,54 @@
+
+
+.dashSection1, .section1Control{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+display: flex;
+flex-direction: column;
+align-items: center;
+cursor: pointer;
+}
+
+.btn h6{
+    font-size: 0.45em;
+}
+
+.dashSection1{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1Control {
+    background-color: #fff;
+    border-radius: 25px;
+    width: 550px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+}
+
+.searchUnderline{
+height: 1px;
+width: 100%;
+background-color: #000;
+margin-top: 5px;
+}
+
+
+input[type="search"]{
+    border: none;
+    padding-left: 15px; 
+    width: 300px;  
+}
+
+input[type="search"]:focus  {
+    outline: none;
+}
+
+.section1Control img{
+height: 25px;
+width: 25px;
+}

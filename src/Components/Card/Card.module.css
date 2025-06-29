@@ -1,0 +1,16 @@
+.card{
+    height: 150px;
+    width: 150px;
+    background-color: #80808056;
+   
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.card:hover{
+    outline: 1px solid #E91E63;
+    cursor: pointer;
+}
