@@ -1,17 +1,11 @@
-.dashboardInfo{
-    background-color: #F3F0F7;
-    padding: 10vh 2vw;
-    flex-grow: 1; 
-    
-    
-}
+
 
 .info{
     width: 100%;
     margin: 0 auto;
 }
 
-.info, .dashboardInfo{
+.info{
     display: flex;
     flex-direction: column;
     gap: 4vh;  

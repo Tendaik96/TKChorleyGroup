@@ -1,0 +1,17 @@
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 1vw;
+    max-height: max-content;
+    overflow: auto;
+  
+    width: 100%;
+    /* max-width: 1300px */; /* prevent it from growing too wide */
+    margin: 0 auto; /* center it */
+    box-sizing: border-box;
+  
+}

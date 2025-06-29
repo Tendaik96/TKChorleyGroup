@@ -22,8 +22,12 @@ export default function Menu({ menuOpen, handleMenuOpen }: MenuProps) {
           to="/dashboard"
           style={({ isActive }) => {
             return isActive
-              ? { color: "#E91E63 ", textUnderlineOffset: '8px', textDecorationThickness: '2px' }
-              : { color: "#000" };
+              ? {
+                  color: "#E91E63 ",
+                  textUnderlineOffset: "8px",
+                  textDecorationThickness: "2px",
+                }
+              : { color: "#fff", textDecoration: 'none' };
           }}
         >
           <li>Dashboard</li>

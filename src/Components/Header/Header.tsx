@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import styles from './Header.module.css'
 import Menu from '../Menu/Menu';
+import { Link } from 'react-router';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -20,7 +21,7 @@ export default function Header() {
             <div></div>
           </div>
         )}
-        <h1 className={styles.title}>BI SYSTEM PROJECT</h1>
+        <Link to='/'><h1 className={styles.title}>BI SYSTEM PROJECT</h1></Link>
       </div>
 
       <Menu menuOpen={menuOpen} handleMenuOpen={handleMenuOpen} />

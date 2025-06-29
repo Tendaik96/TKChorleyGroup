@@ -16,10 +16,10 @@ export default function Section1() {
                     <input type="search" placeholder="Search Category . . ." />
                     <div className={styles.searchUnderline}></div>
                   </div>
-                  <div className={styles.btn}>
+                  {/* <div className={styles.btn}>
                     <img src="./category.png" alt="category icon" />{" "}
                     <h6>VIEW CATEGORIES</h6>{" "}
-                  </div>
+                  </div> */}
                   <div className={styles.btn}>
                     <img src="./download.png" alt="download icon icon" />{" "}
                     <h6>DOWNLOAD</h6>{" "}
