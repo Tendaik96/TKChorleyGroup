@@ -1,14 +1,14 @@
 import React from 'react'
-import styles from './Section.module.css'
+import styles from './Section2.module.css'
 
 export default function Section2() {
   return (
     <section className={styles.dashSection2}>
       <table>
-        <th>
-          <td>Category</td>
-          <td>Total</td>
-        </th>
+        <tr>
+          <th>Category</th>
+          <th>Total</th>
+        </tr>
 
         <tr>
           <td>Sale</td>
@@ -34,7 +34,7 @@ export default function Section2() {
           <td>25</td>
         </tr>
       </table>
-      <div></div>
+      <div className={styles.pieChart}><img src='./pie.png' alt="reports pie chart" /></div>
     </section>
   );
 }

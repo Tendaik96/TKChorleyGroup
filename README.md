@@ -11,3 +11,4 @@ got error when trying to run, i entered:
  installing font awesome: https://docs.fontawesome.com/web/use-with/react
 
  flex grow 1 Dashinfo component 
+ https://www.meta-chart.com/share/untitled-chart-71347

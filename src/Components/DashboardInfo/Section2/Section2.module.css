@@ -1,0 +1,54 @@
+.dashSection2{
+display: flex;
+flex-direction: row;
+gap: 5vh;
+justify-content: center;
+
+}
+
+.dashSection2 table{
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 30px;
+    width: 50%;
+}
+
+td, th {
+   padding: 20px 0;
+   text-align: center;
+    width: 200px;
+    
+  }
+
+  .pieChart {
+    width: 50%;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px; /* Optional: adds space around the image */
+    text-align: center; /* Centers the image horizontally */
+    
+  }
+  
+  .pieChart img {
+    border-radius: 30px;
+    margin: 1vh auto;
+    display: block; /* Needed to center with margin auto */
+    max-width: 100%; /* Ensures it scales responsively */
+    height: auto;
+  }
+
+
+  @media only screen and (max-width: 1330px) {
+    .pieChart img {
+      width: 400px;
+      height: auto;
+      /* object-fit: contain;  */
+    }
+    td, th {
+      padding: 20px 0;
+      text-align: center;
+       width: 150px;
+       
+     }
+  }
