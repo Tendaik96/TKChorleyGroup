@@ -36,7 +36,7 @@ export default function Section1() {
               onChange={handleChange}
               value={search}
             />
-            <button onClick={handleClickSearch}>SEARCH</button>
+            {/* <button onClick={handleClickSearch}>SEARCH</button> */}
             <div className={styles.searchUnderline}></div>
           </div>
           {/* <div className={styles.btn}>

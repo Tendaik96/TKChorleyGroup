@@ -92,5 +92,7 @@ Pie chart and visual data elements were prototyped using:
 
 ---
 
+Note: This app is responsive. If you notice any distortion please let me know so I can fix it.
+
 Happy Coding! 💻✨
 
