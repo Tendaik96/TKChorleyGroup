@@ -25,7 +25,7 @@ cursor: pointer;
 .section1Control {
     background-color: #fff;
     border-radius: 25px;
-    width: 550px;
+    width: 450px;
     justify-content: space-evenly;
     align-items: center;
     padding: 5px;
@@ -53,3 +53,55 @@ input[type="search"]:focus  {
 height: 25px;
 width: 25px;
 }
+
+/* indecisive about adding button */
+/* button{
+    border: none;
+    outline: #000 solid 1px;
+    font-size: 0.5em;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    letter-spacing: 1px;    
+    transition: background-color 300ms ease;
+
+}
+button:hover{
+    outline: #E91E63 solid 1px;
+    background-color: #000;
+    color: #fff;
+    transition: background-color 300ms ease;
+}
+
+button:active{
+    outline: #E91E63 solid 1px;
+    background-color: #E91E63;
+    color: #fff;
+} */
+
+@media only screen and (max-width: 970px) {
+
+    .dashSection1{
+        flex-direction: column;
+        gap: 1.5vh;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+
+
+    
+    input[type="search"]{
+       width:230px;  
+    }
+    .section1Control {
+
+        width: 330px;
+    }
+    
+  }
+
+ 
+
+ 

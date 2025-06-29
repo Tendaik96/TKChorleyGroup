@@ -3,10 +3,7 @@
 .info{
     width: 100%;
     margin: 0 auto;
-}
-
-.info{
     display: flex;
     flex-direction: column;
-    gap: 4vh;  
+    gap: 2vh;  
 }

@@ -23,9 +23,10 @@ export default function Filter({
     setFilterOpen((current) => !current);
   }
 
+
+/* handle function to track checkbox state change */
   function handleIsSales() {
     setIsSales((current) => !current);
-    
   }
 
   function handleIsMarketing() {

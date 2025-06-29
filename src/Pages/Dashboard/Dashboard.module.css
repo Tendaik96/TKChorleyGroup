@@ -12,3 +12,30 @@
     flex-direction: column;
     gap: 4vh;  
 }
+
+@media only screen and (max-width: 780px) {
+   
+    .dashboard{
+        flex-direction: column;
+        
+    }
+
+    .dashboardInfo{
+        padding: 3vh 5vw;
+
+    }
+    
+  }
+
+  
+@media only screen and (max-width: 780px) {
+   
+
+
+    .dashboardInfo{
+        min-height: 62vh;
+    }
+    
+  }
+
+  

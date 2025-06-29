@@ -5,6 +5,7 @@ import styles from './Dashboard.module.css'
 import DashboardInfo from '../../Components/DashboardInfo/DashboardInfo';
 import Section1 from '../../Components/DashboardInfo/Section1/Section1';
 import FilterOptions from '../../Components/FilterOptionPages/FilterOptions';
+import SearchCategory from '../../Components/SearchCategory/SearchCategory';
 
 export default function Dashboard() {
   
@@ -30,6 +31,8 @@ export default function Dashboard() {
           {!isSales && !isMarketing && !isInventory && !isCustomer && (
             <DashboardInfo />
           )}
+          {/* <SearchCategory /> */}
+          
           {(isSales || isMarketing || isInventory || isCustomer) && (
             <FilterOptions
               isSales={isSales}
