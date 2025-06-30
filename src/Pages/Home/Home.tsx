@@ -20,13 +20,13 @@ export default function Home() {
           <p>
             This dataset contains 25 structured report entries from a fictional
             beauty company's BI system. Each report provides a snapshot of
-            internal business operations, covering five essential areas:
+            internal business operations, covering four essential areas:
           </p>
           <ul>
             <li>Sales</li>
             <li>Customer Experience</li>
-            <li>Product Development</li>
-            <li>Marketing</li>
+{/*             <li>Product Development</li>
+ */}            <li>Marketing</li>
             <li>Inventory</li>
           </ul>
           <p>Each entry includes:</p>
